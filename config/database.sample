@@ -7,20 +7,17 @@ defaults: &defaults
 development:
   <<: *defaults
   database: easygift_dev
-  username: root
-  password: root
+  username: 
+  password: 
 
 test: &test
   <<: *defaults
   database: easygift_test
-  username: root
-  password: root
+  username: 
+  password: 
 
 production:
   <<: *defaults
   database: easygift_prod
-  username: idk
-  password: wtf
-
-# cucumber:
-#   <<: *test
+  username: 
+  password: 
