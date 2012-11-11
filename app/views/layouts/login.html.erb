@@ -8,8 +8,14 @@
 </head>
 <body>
 
-  <!-- This is where the erorr messages show up.  Like if you give the incorrect login -->
-  <p class="notice"><%= notice %></p>
+<% unless notice.blank? %>
+  <div class="alert">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <%= notice %>
+  </div>
+<% end %>
+
+
   <p class="alert"><%= alert %></p>
 
   <!-- 
@@ -20,7 +26,9 @@
   that's for the whole site.  You'll see as we get going.  
 
    -->
+  
   <%= yield %>
+
 
 </body>
 </html>
