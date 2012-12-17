@@ -3,10 +3,10 @@
 #
 
 # Create Seed Users
-User.create(:email=>'jacklin10+user@gmail.com', 
-  :first_name=>'Joe', :last_name=>'Acklin', :password => 'password', 
+User.create!(:email=>'jacklin10+user@gmail.com',
+  :first_name=>'Joe', :last_name=>'Acklin', :password => 'password',
   :password_confirmation => 'password', :role=>"user")
 
-User.create(:email=>'meckling2008+user@gmail.com', 
-  :first_name=>'Amanda', :last_name=>'Siegel', :password => 'password', 
+User.create!(:email=>'meckling2008+user@gmail.com',
+  :first_name=>'Amanda', :last_name=>'Siegel', :password => 'password',
   :password_confirmation => 'password', :role=>"user")
