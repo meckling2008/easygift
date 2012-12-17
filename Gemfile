@@ -5,6 +5,9 @@ gem 'jquery-rails'
 gem 'mongoid', '~> 3.0.0'
 gem 'devise', '~> 2.1.2'
 gem 'cancan'
+gem 'bourbon', '~> 2.1.1'
+gem 'neat', '~> 1.0.2'
+gem 'slim', '~> 1.3.4'
 
 # gem 'capistrano'
 # gem 'debugger'
@@ -28,7 +31,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development, :test do 
+group :development, :test do
   gem 'rspec-rails', '~> 2.4'
   gem 'database_cleaner'
   gem "factory_girl_rails", "~> 4.0"

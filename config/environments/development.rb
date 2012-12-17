@@ -28,5 +28,13 @@ Easygift::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
+  # Added when Devise was implemented
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  # Indent html for pretty debugging and do not sort attributes (Ruby 1.8)
+  Slim::Engine.set_default_options :pretty => true, :sort_attrs => false
+
+  # Indent html for pretty debugging and do not sort attributes (Ruby 1.9)
+  Slim::Engine.set_default_options pretty: true, sort_attrs: false
+
 end

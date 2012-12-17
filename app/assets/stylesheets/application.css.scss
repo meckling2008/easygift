@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+@import "bourbon";
+@import "grid-settings";
+@import "neat";
+
+@import "variables";
+@import "main.css.scss";
+@import "layout.css.scss";

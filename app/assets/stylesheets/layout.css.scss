@@ -1,0 +1,28 @@
+@import "bourbon";
+@import "neat";
+
+nav.main {
+  @include outer-container;
+  background-color: gray;
+  height: 30px;
+}
+
+div.container {
+
+  @include outer-container;
+
+  div.home-body {
+    @include span-columns(8);
+    @include border-radius(5px);
+    background-color: #CCC;
+    height: 500px;
+  }
+
+  div.right-col {
+    @include span-columns(4);
+    @include border-radius(5px);
+    background-color: #BBB;
+    height: 500px;
+  }
+
+}
