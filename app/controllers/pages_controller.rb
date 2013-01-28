@@ -5,7 +5,6 @@ class PagesController < HighVoltage::PagesController
   protected
 
     def layout_for_page
-      puts "*** HERE ***"
       'content_parent'
       # If you need a different layout for different pages:
       # case params[:id]

@@ -1,0 +1,27 @@
+div.container
+  nav.main
+    div.navbar
+      div.navbar-inner
+        a.brand Gift
+        ul.nav
+          li.active.divider-vertical
+            a Home
+          li.divider-vertical
+            a Not Home
+    button Zeke
+    button Emma
+    button Dana
+    = link_to "Sign out", destroy_user_session_path, :method=>:delete
+  br
+  div.home-body
+    p home body
+  div.right-col
+    p right side
+    button Joe
+  p = link_to 'Sign On', sign_in_path
+  p = link_to "Sign out", destroy_user_session_path, :method=>:delete
+
+/ <div>test</div>
+/ javascript:
+/   alert("Stuff");
+

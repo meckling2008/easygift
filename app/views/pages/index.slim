@@ -1,0 +1,4 @@
+div.container
+  p Home Page
+  p = link_to 'Sign On', sign_in_path
+  p = link_to "Sign out", destroy_user_session_path, :method=>:delete
