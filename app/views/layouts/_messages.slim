@@ -1,0 +1,5 @@
+- flash.each do |name, msg|
+  - if msg.is_a?(String)
+    div class="alert alert-#{name == :notice ? "success" : "error"}"
+      p id="flash_#{name}" == msg
+      button class="close" type='button' data-dismiss="alert" &#215;
