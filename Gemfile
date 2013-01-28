@@ -8,6 +8,7 @@ gem 'cancan'
 gem 'bourbon', '~> 2.1.1'
 gem 'neat', '~> 1.0.2'
 gem 'slim', '~> 1.3.4'
+gem 'high_voltage'
 
 # gem 'capistrano'
 # gem 'debugger'
