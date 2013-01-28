@@ -5,6 +5,11 @@ nav.main {
   @include outer-container;
   background-color: gray;
   height: 30px;
+
+  button {
+    @include button(shiny, #ff0000);
+  }
+
 }
 
 div.container {

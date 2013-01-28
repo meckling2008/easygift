@@ -7,3 +7,10 @@ body {
   font-family: $lucida-grande;
 }
 
+button {
+  @include button(shiny, #ff0000);
+}
+
+pill {
+  @include button(pill);
+}
